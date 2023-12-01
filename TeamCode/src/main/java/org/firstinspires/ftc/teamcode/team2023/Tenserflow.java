@@ -51,6 +51,7 @@ import java.util.List;
  */
 
 @Autonomous
+@Disabled
 
 public class Tenserflow extends LinearOpMode {
 
@@ -64,7 +65,7 @@ public class Tenserflow extends LinearOpMode {
    // private static final String TFOD_MODEL_ASSET = "CenterStage.tflite";
 
     //custom Model
-     private static final String TFOD_MODEL_ASSET = "PPBlue_old.tflite";
+    private static final String TFOD_MODEL_ASSET = "RedRightNew.tflite";
     // TFOD_MODEL_FILE points to a model file stored onboard the Robot Controller's storage,
     // this is used when uploading models directly to the RC using the model upload interface.
     // private static final String TFOD_MODEL_FILE = "/sdcard/FIRST/tflitemodels/CenterStage.tflite";
@@ -78,7 +79,7 @@ public class Tenserflow extends LinearOpMode {
    */
 
     private static final String[] LABELS = {
-            "RP","RS","RSS"
+            "RPRight"
     };
 
     /**

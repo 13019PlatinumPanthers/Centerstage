@@ -2,7 +2,7 @@ package org.firstinspires.ftc.teamcode.Test;
 
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 
-import org.firstinspires.ftc.teamcode.Robot.GBrobot;
+import org.firstinspires.ftc.teamcode.OldReferencesPowerPlay.Robot.GBrobot;
 
 public class Strafing_Test extends OpMode {
     public GBrobot robot;

@@ -3,9 +3,8 @@ package org.firstinspires.ftc.teamcode.Test;
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
-import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 
-import org.firstinspires.ftc.teamcode.Robot.GBrobot;
+import org.firstinspires.ftc.teamcode.OldReferencesPowerPlay.Robot.GBrobot;
 @Autonomous
 @Disabled
 public class TestLift extends LinearOpMode {

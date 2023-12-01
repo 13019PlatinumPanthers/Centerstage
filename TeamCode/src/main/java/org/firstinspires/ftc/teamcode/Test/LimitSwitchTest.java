@@ -1,13 +1,11 @@
 package org.firstinspires.ftc.teamcode.Test;
 
 
-import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.eventloop.opmode.Disabled;
-import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
-import org.firstinspires.ftc.teamcode.Robot.GBrobot;
+import org.firstinspires.ftc.teamcode.OldReferencesPowerPlay.Robot.GBrobot;
 @TeleOp
 @Disabled
 public class LimitSwitchTest extends OpMode {
